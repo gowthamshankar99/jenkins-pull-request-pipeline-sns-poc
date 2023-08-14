@@ -1,7 +1,7 @@
 pipeline {
     agent any
  stages {
-        stage('Invoke Step Function') {
+        stage('Invoke Step Functions') {
             steps {
                 script {
                     print("hukum")
